@@ -9,9 +9,9 @@ Console.WriteLine("Введите второе число: ");
 int b = Convert.ToInt32(Console.ReadLine());
 if (a > b)
 {
-Console.Write("Большее число: ");
+Console.Write("Большее число: "); //Console.WriteLine("max: " + a);
 Console.Write(a);
-Console.Write(", меньшее число: ");
+Console.Write(", меньшее число: "); //Console.WriteLine("min: " + b);
 Console.WriteLine(b);
 }
 else
